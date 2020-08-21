@@ -1,0 +1,24 @@
+//
+//  CCBeautifulCam-Prefix.pch
+//  CCBeautifulCamera
+//
+//  Created by CC老师 on 2019/6/20.
+//  Copyright © 2019年 CC老师. All rights reserved.
+//
+
+//#ifndef CCBeautifulCam_Prefix_pch
+//#define CCBeautifulCam_Prefix_pch
+#ifdef __OBJC__
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Masonry/Masonry.h>
+
+#import "EXTScope.h"
+#import "Common.h"
+#import "Toast.h"
+
+#import "UIView+Extention.h"
+#import "UIDevice+Extention.h"
+#import "UIButton+Extention.h"
+
+#endif /* CCBeautifulCam_Prefix_pch */
